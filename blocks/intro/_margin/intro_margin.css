@@ -40,7 +40,7 @@
 }
 
 @media screen and (min-width: 1500px) {
-  .intro_margin {background-color: brown;
+  .intro_margin {
     margin-top: 100px;
     margin-bottom: 100px;
     margin-right: calc((100% - 1200px)/2 + 294px);

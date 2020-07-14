@@ -1,0 +1,19 @@
+.place__website {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 720px){
+  .place__website {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 720px) {/*общее*/
+  .place__website {
+    grid-area: website;
+    align-self: end;
+    height: 46px;
+  } 
+}

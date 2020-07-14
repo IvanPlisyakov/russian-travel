@@ -1,0 +1,40 @@
+@import url(./_margin/places_margin.css);
+
+/*.places {
+
+}*/
+
+@media screen and (max-width: 720px){
+  .places {
+    width: 100%;
+
+  }
+}
+
+@media screen and (max-width: 952px) and (min-width: 720px) {
+  .places {
+    width: 720px;
+
+  } 
+}
+
+@media screen and (max-width: 1184px) and (min-width: 952px) {
+  .places {
+    width: 928px;
+
+  } 
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1184px) {
+  .places {
+    width: 984px;
+
+  } 
+}
+
+@media screen and (min-width: 1500px) {
+  .places {
+    width: 1020px;
+
+  } 
+}

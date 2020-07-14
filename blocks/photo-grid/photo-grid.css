@@ -1,0 +1,51 @@
+@import url(./__item/photo-grid__item.css);
+@import url(./_margin/photo-grid_margin.css);
+
+.photo-grid {
+  display: grid;
+}
+/*здесь можно было бы использовать auto-fit, но ширина photo-grid констатнта для каждого типа разрешения экрана*/
+@media screen and (max-width: 720px){
+  .photo-grid {
+    width: 288px;
+    grid-template-columns: 288px;
+    grid-template-rows: repeat(12,216px);
+    grid-row-gap: 12px;
+  }
+}
+
+@media screen and (max-width: 952px) and (min-width: 720px) {
+  .photo-grid {
+    width: 720px;
+    grid-template-columns: repeat(2, 352px);
+    grid-template-rows: repeat(6,264px);
+    grid-gap: 16px;
+  } 
+}
+
+@media screen and (max-width: 1184px) and (min-width: 952px) {
+  .photo-grid {
+    width: 928px;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(4,225px);
+    grid-gap: 14px;
+  } 
+}
+
+@media screen and (max-width: 1500px) and (min-width: 1184px) {
+  .photo-grid {
+    width: 1184px;
+    grid-template-columns: repeat(4, 284px);
+    grid-template-rows: repeat(3, 213px);
+    grid-gap: 16px;
+  } 
+}
+
+@media screen and (min-width: 1500px) {
+  .photo-grid {
+    width: 1500px;
+    grid-template-columns: repeat(4, 363px);
+    grid-template-rows: repeat(3, 272px);
+    grid-gap: 16px;
+  } 
+}

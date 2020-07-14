@@ -1,0 +1,21 @@
+/*.place__paragraph_number_one {
+}*/
+
+@media screen and (max-width: 720px){
+  .place__paragraph_number_one {
+    margin: 32px auto 24px auto;
+  }
+
+  .place:nth-of-type(5) .place__paragraph_number_one {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 720px) {/*общее*/
+  .place__paragraph_number_one {
+    grid-area: paragraph_number_one;
+    margin: 0;
+
+
+  } 
+}

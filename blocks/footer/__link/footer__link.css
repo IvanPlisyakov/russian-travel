@@ -1,0 +1,23 @@
+.footer__link {
+  margin: 0;
+  text-decoration: none;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  color: white;
+  display: inline-block;
+}
+
+@media screen and (max-width: 720px){
+  .footer__link {
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .footer__link {
+    font-size: 16px;
+    line-height: 18px;
+  } 
+}

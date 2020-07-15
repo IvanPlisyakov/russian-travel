@@ -2,17 +2,17 @@
 }*/
 
 @media screen and (max-width: 720px){
-  .place__paragraph_number_one {
+  .place__paragraph_location_start {
     margin: 32px auto 24px auto;
   }
 
-  .place:nth-of-type(5) .place__paragraph_number_one {
+  .place:nth-of-type(5) .place__paragraph_location_start {
     margin-bottom: 0;
   }
 }
 
 @media screen and (min-width: 720px) {/*общее*/
-  .place__paragraph_number_one {
+  .place__paragraph_location_start {
     grid-area: paragraph_number_one;
     margin: 0;
 

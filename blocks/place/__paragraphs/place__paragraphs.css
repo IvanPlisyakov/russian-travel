@@ -1,3 +1,33 @@
 .place__paragraphs {
   grid-area: paragraphs;
 }
+
+.place:nth-of-type(5) .place__paragraph:last-of-type {
+  display: none;
+}
+
+@media screen and (max-width: 720px){
+  .place__paragraph:first-of-type {
+    margin: 32px auto 24px auto;
+  }
+
+  .place:nth-of-type(5) .place__paragraph:first-of-type {
+    margin-bottom: 0;
+  }
+
+  .place__paragraph:last-of-type {
+    margin: 24px auto 0 auto;
+  }
+}
+
+@media screen and (min-width: 720px) {/*общее*/
+  .place__paragraph:first-of-type {
+    grid-area: paragraph_number_one;
+    margin: 0;
+  }
+  
+  .place__paragraph:last-of-type {
+    grid-area: paragraph_number_two;
+    margin: 24px 0 0 0;
+  } 
+}

@@ -24,16 +24,9 @@
   } 
 }
 
-@media screen and (max-width: 1500px) and (min-width: 1184px) {
+@media screen and (min-width: 1184px) {
   .lead_margin  {
     margin-top: 56px;
     margin-bottom: 92px;
-  } 
-}
-
-@media screen and (min-width: 1500px) {
-  .lead_margin  {
-    margin-top: 64px;
-    margin-bottom: 100px;
   } 
 }

@@ -1,4 +1,4 @@
-.footer__nav {
+.footer__ul {
   display: flex;
   margin: 0;
   padding: 0;
@@ -7,14 +7,14 @@
 }
 
 @media screen and (max-width: 720px){
-  .footer__nav {
+  .footer__ul {
     flex-direction: column;
     margin-bottom: 48px;
   }
 }
 
 @media screen and (min-width: 720px) {
-  .footer__nav {
+  .footer__ul {
     width: 465px;
     align-items: flex-end;
   } 

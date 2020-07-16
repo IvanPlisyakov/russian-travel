@@ -1,6 +1,5 @@
 @import url(./__lang-link/header__lang-link.css);
-@import url(./__lang-link/_lang/header__lang-link_lang_en.css);
-@import url(./__lang-link/_lang/header__lang-link_lang_ru.css);
+@import url(./__lang-link/_active/header_active.css);
 @import url(./__lang-links/header__lang-links.css);
 @import url(./__logo/header__logo.css);
 @import url(./_margin/header_margin.css);
@@ -27,14 +26,8 @@
   } 
 }
 
-@media screen and (max-width: 1500px) and (min-width: 1184px) {
+@media screen and (min-width: 1184px) {
   .header {
     width: 1184px;
-  } 
-}
-
-@media screen and (min-width: 1500px) {
-  .header {
-    width: 1500px;
   } 
 }

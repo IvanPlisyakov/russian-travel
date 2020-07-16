@@ -1,6 +1,7 @@
 @import url(./__copyright/footer__copyright.css);
 @import url(./__link/footer__link.css);
-@import url(./__nav/footer__nav.css);
+@import url(./__list/footer__list.css);
+@import url(./__ul/footer__ul.css);
 @import url(./_margin/footer_margin.css);
 
 .footer {
@@ -32,17 +33,9 @@
   } 
 }
 
-@media screen and (max-width: 1500px) and (min-width: 1184px) {
+@media screen and (min-width: 1184px) {
   .footer {
     width: 1184px;
-    align-items: flex-end;
-
-  } 
-}
-
-@media screen and (min-width: 1500px) {
-  .footer {
-    width: 1500px;
     align-items: flex-end;
 
   } 

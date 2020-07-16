@@ -5,36 +5,43 @@
 @import url(./__title/cover__title.css);
 @import url(./_margin/cover_margin.css);
 
-/*.cover {
-
-}*/
+.cover {
+  background-image: url(/images/cover-trains.jpg);
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-decoration: none;
+  background-position: center;
+}
 
 @media screen and (max-width: 720px){
   .cover {
     width: 100%;
+    height: 200px;
+    grid-template-rows: 1fr 134px 1fr;
   }
 }
 
 @media screen and (max-width: 952px) and (min-width: 720px) {
   .cover {
     width: 100%;
+    height: 480px;
+    grid-template-rows: 1fr 250px 1fr;
   } 
 }
 
 @media screen and (max-width: 1184px) and (min-width: 952px) {
   .cover {
     width: 100%;
+    height: 640px;
+    grid-template-rows: 1fr 250px 1fr;
   } 
 }
 
-@media screen and (max-width: 1500px) and (min-width: 1184px) {
+@media screen and (min-width: 1184px) {
   .cover {
     width: 1184px;
-  } 
-}
-
-@media screen and (min-width: 1500px) {
-  .cover {
-    width: 1500px;
+    height: 740px;
+    grid-template-rows: 1fr 250px 1fr;
   } 
 }

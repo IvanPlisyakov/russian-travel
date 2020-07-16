@@ -1,8 +1,6 @@
 @import url(./__image/place__image.css);
 @import url(./__link/place__link.css);
 @import url(./__paragraph/place__paragraph.css);
-@import url(./__paragraph/_location/place__paragraph_location_end.css);
-@import url(./__paragraph/_location/place__paragraph_location_start.css);
 @import url(./__paragraphs/place__paragraphs.css);
 @import url(./__title/place__title.css);
 @import url(./__url-heading/place__url-heading.css);
@@ -46,18 +44,10 @@
   } 
 }
 
-@media screen and (max-width: 1500px) and (min-width: 1184px) {
+@media screen and (min-width: 1184px) {
   .place {
     width: 984px;
     grid-template-columns: 460px 484px;
     grid-column-gap: 40px;
   } 
-}
-
-@media screen and (min-width: 1500px) {
-  .place {
-    width: 1020px;
-    grid-template-columns: 480px 492px;
-    grid-column-gap: 48px;
-  }
 }

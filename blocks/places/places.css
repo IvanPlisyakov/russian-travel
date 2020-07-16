@@ -25,16 +25,9 @@
   } 
 }
 
-@media screen and (max-width: 1500px) and (min-width: 1184px) {
+@media screen and (min-width: 1184px) {
   .places {
     width: 984px;
-
-  } 
-}
-
-@media screen and (min-width: 1500px) {
-  .places {
-    width: 1020px;
 
   } 
 }

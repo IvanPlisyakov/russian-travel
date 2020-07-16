@@ -32,20 +32,11 @@
   } 
 }
 
-@media screen and (max-width: 1500px) and (min-width: 1184px) {
+@media screen and (min-width: 1184px) {
   .photo-grid {
     width: 1184px;
     grid-template-columns: repeat(4, 284px);
     grid-template-rows: repeat(3, 213px);
-    grid-gap: 16px;
-  } 
-}
-
-@media screen and (min-width: 1500px) {
-  .photo-grid {
-    width: 1500px;
-    grid-template-columns: repeat(4, 363px);
-    grid-template-rows: repeat(3, 272px);
     grid-gap: 16px;
   } 
 }

@@ -2,17 +2,9 @@
   grid-area: paragraphs;
 }
 
-.place:nth-of-type(5) .place__paragraph:last-of-type {
-  display: none;
-}
-
 @media screen and (max-width: 720px){
   .place__paragraph:first-of-type {
     margin: 32px auto 24px auto;
-  }
-
-  .place:nth-of-type(5) .place__paragraph:first-of-type {
-    margin-bottom: 0;
   }
 
   .place__paragraph:last-of-type {

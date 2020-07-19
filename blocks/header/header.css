@@ -2,7 +2,7 @@
 @import url(/blocks/header/__lang-link/_active/header_active.css);
 @import url(/blocks/header/__lang-links/header__lang-links.css);
 @import url(/blocks/header/__logo/header__logo.css);
-@import url(margin/header_margin.css);
+@import url(./margin/header_margin.css);
 
 .header {
   display: flex;

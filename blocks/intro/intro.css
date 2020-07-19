@@ -1,9 +1,9 @@
-@import url(./__important/intro__important.css);
-@import url(./__item/intro__item.css);
-@import url(./__list/intro__list.css);
-@import url(./__text/intro__text.css);
-@import url(./__title/intro__title.css);
-@import url(./_margin/intro_margin.css);
+@import url(__important/intro__important.css);
+@import url(__item/intro__item.css);
+@import url(__list/intro__list.css);
+@import url(__text/intro__text.css);
+@import url(__title/intro__title.css);
+@import url(_margin/intro_margin.css);
 
 @media screen and (max-width: 720px){
   .intro {
